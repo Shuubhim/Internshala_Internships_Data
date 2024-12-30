@@ -47,5 +47,6 @@ df = pd.DataFrame({'Role': roles, 'Company': name, 'Stipend': stipends,
                    'Duration': duration, 'Location': location})
 df.shape
 df.isnull().sum()
+df.imfo()
 df.describe()
 df .sample(5)
